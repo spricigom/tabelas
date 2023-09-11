@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        tr, th, td{
+    border: 1px solid black;
+}
+    th, td{
+        border: 1px solid black;
+    }
+    table{
+        margin-top: 20px;
+        width: 100%;
+        border-collapse: collapse;
+    }
+    td:hover{
+        background-color: black;
+        color: white;
+    }
+    </style>
+    <title>Tabela</title>
+</head>
+<body>
+    <table>
+        <tr>
+            
+            <th>Nome</th>
+            <th>Fone</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>(88) 8888-8888</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th rowspan="3"> Clientes</th>
+            <th>Nome</th>
+            <th colspan="2">Fone</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>(88) 8888-8888</td>
+            <td>(99) 9999-9999</td>
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>(88) 8888-8888</td>
+            <td>(99) 9999-9999</td>
+        </tr>
+    </table>
+</body>
+</html>
